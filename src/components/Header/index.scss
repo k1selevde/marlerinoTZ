@@ -1,0 +1,39 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  &__burger {
+
+    text-align: left;
+    padding-right: 16px;
+    border-right: 1px solid rgba(0,0,0,0.5);
+  }
+  &__welcomeBlock {
+
+
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+  &__avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background: darkblue;
+  }
+  &__name {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  &__welcome {
+    color: rgba(0,0,0,0.4);
+    font-size: 15px;
+  }
+  &__appeal {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+}

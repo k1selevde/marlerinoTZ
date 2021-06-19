@@ -1,0 +1,28 @@
+.appItem {
+  &__wrapper {
+
+    cursor: pointer;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(198, 204, 236, 0.2);
+    transition: background-color .4s ease;
+    &:hover {
+      background-color: cornflowerblue;
+    }
+  }
+  &__details {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  &__place {
+    font-weight: 500;
+  }
+  &__date {
+    margin-left: 6px;
+    font-weight: 300;
+  }
+}
