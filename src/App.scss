@@ -1,0 +1,15 @@
+.wrapper {
+  background-color: floralwhite;
+  width: 100vw;
+  height: 100vh;
+}
+
+.window {
+  background-color: white;
+  height: 500px;
+  width: 340px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
