@@ -1,0 +1,24 @@
+.someoneMessage {
+  &__wrapper {
+    width: fit-content;
+    padding: 7px;
+    background: #EAE8E9;
+    border-radius: 0px 16px 16px 16px;
+    display: flex;
+  }
+  &__author {
+    color: #3454D1;
+    font-size: 12px;
+  }
+  &__text {
+    max-width: 216px;
+    color: #121417;
+    font-size: 16px;
+  }
+  &__auxiliary {
+    align-self: end;
+  }
+  &__date {
+    font-size: 14px;
+  }
+}

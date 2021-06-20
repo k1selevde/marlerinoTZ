@@ -1,8 +1,39 @@
 .chat {
-  &__wrapper {
-
+  &__header {
+    display: flex;
+    align-items: center;
   }
+  &__wrapper {
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    padding: 10px 40px;
+  }
+  &__messages-wrap {
+    //border: 1px solid black;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    gap: 15px;
+    overflow-y: auto;
+  }
+}
+
+.chat-header {
   &__icon-back {
-    
+    cursor: pointer;
+    padding-right: 20px;
+  }
+  &__details {
+    border-left: 1px solid black;
+    padding-left: 40px;
+  }
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__place {
+    color: #6F6F72;
+    font-weight: 300;
   }
 }

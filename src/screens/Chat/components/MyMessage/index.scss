@@ -1,0 +1,15 @@
+.myMessage {
+  &__wrapper {
+    margin-left: auto;
+    width: fit-content;
+    padding: 7px;
+    background: #657CDA;
+    border-radius: 16px 16px 0px 16px;
+  }
+
+  &__text {
+    color: #F6F4F5;
+    font-size: 16px;
+  }
+
+}

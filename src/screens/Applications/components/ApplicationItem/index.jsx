@@ -6,7 +6,7 @@ import "./index.scss"
 const ApplicationItem = ({application: {place, date, title, id}}) => {
     return (
         <NavLink
-            styles={{textDecoration: 'none'}}
+            style={{ textDecoration: 'none' }}
             key={id}
             to={`/chat/${id}`}
         >

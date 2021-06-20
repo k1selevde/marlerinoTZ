@@ -18,7 +18,7 @@ function App() {
             <div className="content">
                 <Switch>
                     <Route path="/" exact component={Applications} />
-                    <Route path="/chat" component={Chat} />
+                    <Route path="/chat/:id" component={Chat} />
                 </Switch>
             </div>
 
