@@ -38,8 +38,9 @@ const Popup = ({ref, closeHandler}) => {
 
 
     return (
-        <div ref={ref} className="popup">
+        <div  className="popup">
             <div
+                ref={ref}
                 className="popup__wrapper"
             >
                 <div className="popup__header">

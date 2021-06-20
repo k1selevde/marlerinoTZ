@@ -2,9 +2,21 @@
   background-color: floralwhite;
   width: 100vw;
   height: 100vh;
+  overflow-y: auto;
 }
 
+.content {
+  height: 100%;
+}
+.window-wrap {
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .window {
+
   display: grid;
   grid-template-rows: 1fr 40fr 1fr;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);;
@@ -12,10 +24,6 @@
   width: 375px;
   height: 812px;
   border-radius: 15px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 

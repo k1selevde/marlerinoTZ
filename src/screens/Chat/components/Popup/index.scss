@@ -1,7 +1,11 @@
 .popup {
+  width: 100%;
   position: absolute;
-  bottom: 40%;
+  bottom: 18%;
+  left: 0;
   &__wrapper {
+    margin: 0 auto;
+    width: 271px;
     display: flex;
     flex-direction: column;
     background: #F6F4F5;

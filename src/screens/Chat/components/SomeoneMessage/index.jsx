@@ -15,15 +15,7 @@ const SomeoneMessage = ({message: {text, author, time}}) => {
                     {text}
                 </div>
             </div>
-
-
-            <div className="someoneMessage__auxiliary">
-                <div className="someoneMessage__date">{time}</div>
-                <div className="someoneMessage__right-icon">
-                    <Right />
-                </div>
-            </div>
-
+            <div className="someoneMessage__time">{time}</div>
         </div>
     )
 }
